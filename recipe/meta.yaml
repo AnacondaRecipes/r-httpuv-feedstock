@@ -10,8 +10,8 @@ package:
 source:
   fn: httpuv_{{ version }}.tar.gz
   url:
-    - https://cran.r-project.org/src/contrib/httpuv_{{ version }}.tar.gz
-    - https://cran.r-project.org/src/contrib/Archive/httpuv/httpuv_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/httpuv_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/Archive/httpuv/httpuv_{{ version }}.tar.gz
   sha256: 4336b993afccca2a194aca577b1975b89a35ac863423b18a11cdbb3f8470e4e9
 
 
